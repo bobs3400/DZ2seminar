@@ -1,5 +1,5 @@
 number = int(input("Введите целое число: "))
-for i in range(1, number):
+for i in range(0, number):
     x = 2 ** i
-    if x < number:
+    if x <= number:
        print(x)
